@@ -1,0 +1,7 @@
+services:
+  server:
+    build: .
+    volumes:
+      - ./db:/backend/db
+    ports:
+      - "80:8765"

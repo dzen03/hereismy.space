@@ -1,0 +1,6 @@
+[submodule "hereismy.space-backend"]
+	path = hereismy.space-backend
+	url = https://github.com/dzen03/hereismy.space-backend.git
+[submodule "hereismy.space-frontend"]
+	path = hereismy.space-frontend
+	url = https://github.com/dzen03/hereismy.space-frontend.git
