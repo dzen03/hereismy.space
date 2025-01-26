@@ -4,4 +4,4 @@ services:
     volumes:
       - ./db:/backend/db
     ports:
-      - "80:8765"
+      - "8765:8765"

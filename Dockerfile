@@ -1,5 +1,5 @@
 # Building the frontend
-FROM node:22-alpine3.20 AS frontend-builder
+FROM node:22-alpine3.21 AS frontend-builder
 
 COPY hereismy.space-frontend /frontend
 
@@ -9,7 +9,7 @@ RUN npm install
 RUN node_modules/.bin/ng build
 
 # Building the server and copying the frontend
-FROM alpine:3.20 AS server
+FROM alpine:3.21 AS server
 
 WORKDIR /backend
 
